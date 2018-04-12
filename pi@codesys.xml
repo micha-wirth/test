@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <project xmlns="http://www.plcopen.org/xml/tc6_0200">
+<<<<<<< HEAD
   <fileHeader companyName="" productName="CODESYS" productVersion="CODESYS V3.5 SP12" creationDateTime="2018-04-12T11:06:56.1462024" />
   <contentHeader name="pi@codesys.project" modificationDateTime="2018-04-12T11:06:35.882732">
+=======
+  <fileHeader companyName="" productName="CODESYS" productVersion="CODESYS V3.5 SP12" creationDateTime="2018-04-12T10:54:46.7475469" />
+  <contentHeader name="pi@codesys.project" modificationDateTime="2018-04-12T08:55:12.2010398">
+>>>>>>> master
     <coordinateInfo>
       <fbd>
         <scaling x="1" y="1" />
@@ -78,11 +83,14 @@
                 <derived name="udtOutput" />
               </type>
             </variable>
+<<<<<<< HEAD
             <variable name="testBool">
               <type>
                 <BOOL />
               </type>
             </variable>
+=======
+>>>>>>> master
             <addData>
               <data name="http://www.3s-software.com/plcopenxml/attributes" handleUnknown="implementation">
                 <Attributes>
@@ -97,7 +105,10 @@ VAR_GLOBAL
 	_4Y0: BOOL;
 	in : udtInput;
 	out : udtOutput;
+<<<<<<< HEAD
 	testBool : BOOL;
+=======
+>>>>>>> master
 	
 END_VAR
 </xhtml>
